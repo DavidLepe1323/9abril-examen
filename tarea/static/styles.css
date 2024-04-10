@@ -1,0 +1,111 @@
+/* Estilos generales */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e5e5e5; /* Gris claro */
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f2f2f2; /* Gris pálido */
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para el encabezado */
+h1 {
+    color: #444; /* Gris oscuro */
+    text-align: center;
+}
+
+/* Estilos para el formulario */
+.input-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+textarea {
+    width: 100%;
+    height: 150px;
+    padding: 10px;
+    border: 2px solid #ccc; /* Gris claro */
+    border-radius: 8px;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+textarea:focus {
+    border-color: #6b6b6b; /* Gris medio */
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #767676; /* Gris oscuro */
+    color: #fff; /* Blanco */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #5b5b5b; /* Gris más oscuro */
+}
+
+/* Estilos para el resultado */
+.result-container {
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    background-color: #e8e8e8; /* Gris claro */
+}
+
+.result-container h2 {
+    color: #444; /* Gris oscuro */
+    text-align: center;
+}
+
+.result-container ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.result-container ul li {
+    margin-bottom: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #444; /* Gris oscuro */
+}
+
+/* Estilos para errores */
+.error-container {
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #eaa6a6; /* Rosa pálido */
+    border: 2px solid #e08585; /* Rosa claro */
+    color: #792828; /* Rojo oscuro */
+}
+
+/* Estilos para mensajes de éxito */
+.success-container {
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #a6daa6; /* Verde pálido */
+    border: 2px solid #85c685; /* Verde claro */
+    color: #387038; /* Verde oscuro */
+}
+
+/* Estilos para mensajes de depuración */
+.debug-container {
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #fff8dc; /* Amarillo claro */
+    border: 2px solid #ffef96; /* Amarillo */
+    color: #666; /* Gris medio */
+}
